@@ -9,7 +9,7 @@ Made with [Aether](https://github.com/omacom/aether).
 ## Installation
 
 ```bash
-omarchy theme install <this-repo-url>
+omarchy theme install https://github.com/MistaMyke/monarchy-omarchy-theme
 ```
 
 ## GNOME / GTK apps (Nautilus, etc.)
