@@ -1,0 +1,46 @@
+/* Monarchy — libadwaita named-color overrides for GTK4 apps (Nautilus, etc).
+   Values map to this theme's colors.toml tonal layers:
+     background / dark_background / darker_background / lighter_background
+     foreground / dark_foreground  (dark_foreground used for body text — full
+     foreground is quite saturated and reads harsh at body-text sizes)
+     accent
+*/
+
+@define-color accent_color #658f6a;
+@define-color accent_bg_color #658f6a;
+@define-color accent_fg_color #05101A;
+
+@define-color window_bg_color #05101A;
+@define-color window_fg_color #bcb37d;
+
+@define-color view_bg_color #040c14;
+@define-color view_fg_color #bcb37d;
+
+@define-color headerbar_bg_color #03080d;
+@define-color headerbar_fg_color #bcb37d;
+@define-color headerbar_border_color #1e2831;
+
+@define-color sidebar_bg_color #040c14;
+@define-color sidebar_fg_color #bcb37d;
+
+@define-color card_bg_color #1e2831;
+@define-color card_fg_color #bcb37d;
+
+@define-color dialog_bg_color #05101A;
+@define-color dialog_fg_color #bcb37d;
+
+@define-color popover_bg_color #1e2831;
+@define-color popover_fg_color #bcb37d;
+
+/* Some apps (Nautilus's grid/list content included) set a background
+   directly on these node types instead of referencing view_bg_color, so
+   redefining the variable alone doesn't reach them. Force it explicitly. */
+.background,
+.view,
+list,
+gridview,
+flowbox,
+scrolledwindow > viewport {
+  background-color: @view_bg_color;
+  color: @view_fg_color;
+}
