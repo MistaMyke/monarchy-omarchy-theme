@@ -34,7 +34,10 @@ automatically. For a closer match, run:
 gsettings set org.gnome.desktop.interface accent-color green
 ```
 
+## Screenshots
+
 ![Nautilus and GTK apps](screenshots/nautilus-and-gtk-apps.png)
+![Disk usage TUI](screenshots/disk-usage-tui.png)
 
 ## License
 
