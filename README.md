@@ -31,7 +31,7 @@ omarchy theme install https://github.com/MistaMyke/monarchy-omarchy-theme
 <table>
   <tr>
     <td><img src="backgrounds/01-Monarchy-DragonPond.png" width="220" alt="Dragon Pond"></td>
-    <td><img src="backgrounds/02-Monarchy-ImperialEsate.png" width="220" alt="Imperial Estate"></td>
+    <td><img src="backgrounds/02-Monarchy-ImperialEstate.png" width="220" alt="Imperial Estate"></td>
     <td><img src="backgrounds/03-Monarchy-ForestShrine.png" width="220" alt="Forest Shrine"></td>
   </tr>
   <tr>
